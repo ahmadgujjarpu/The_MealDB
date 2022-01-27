@@ -1,0 +1,56 @@
+body{
+    background-color:#202013;
+}
+
+.contain-img{
+    width:250px;
+    height: 250px;
+    margin-top: 50px;
+}
+#country-image{
+    width: 80px;
+    height: 80px;
+    padding:0px;
+    margin:0px;
+}
+#contain{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+.footer-img{
+    width: 200px;
+    height: 50px;
+    margin-top: 0px;
+}
+p,h3,h2{
+    color: #d57d1f;
+}
+h3,h2{
+    color:floralwhite;
+}
+span{
+    color: floralwhite;
+}
+a{
+    text-decoration: none;
+}
+#footer{
+    background-color: #23180d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#query{
+    width: 300px;
+}
+#pp{
+    background-color: darkgoldenrod;
+    color: floralwhite;
+}
+.footer-link{
+    color: floralwhite;
+}
+hr{
+    background-color: floralwhite;
+}

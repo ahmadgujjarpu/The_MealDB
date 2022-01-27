@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light  p-4" style="background-color:#23180D">
+    <div style="float: left;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <img src="logo.png" alt="">
+    </div>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03" style="float: right;">
+
+      <ul class="navbar-nav mt-2 mt-lg-0 " style="margin-left: 500px;">
+        <li class="nav-item active text-white">
+          <a class="nav-link text-white" href="#" style="background-color: tomato;">Home <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">API</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled text-white" href="#">FORUM</a>
+        </li>
+        <li class="nav-item">
+          <i style="margin:13px 10px 0 30px; background-color: white; color: blue;" class="fab fa-facebook-square"></i>
+        </li>
+        <li class="nav-item">
+          <i style="margin:13px 30px 0 10px; background-color: white; color: turquoise;"
+            class="fab fa-twitter-square"></i>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0"></form>
+      <input style="width: 100px;" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      </form>
+    </div>
+  </nav>
+      <div id="contain">
+      <div id="header">
+        <div class="row mt-5">
+          <div class="col col-lg-3 ">
+            <img src="https://www.themealdb.com/images/meal-icon.png" alt="">
+          </div>
+          <div class="col col-lg-6">
+            <h3> Welcome to TheMealDB</h3>
+            <span>
+              Welcome to TheMealDB: An open, crowd-sourced database of Recipes from around the world.
+              We also offer a free JSON API for anyone wanting to use it, with additional features for subscribers.</span><br>
+              <button type="button" class="btn btn-warning" style="background-color: #d57d1f;">
+                PayPal Subscribe</button><br>
+              <span>Click to Support: Currently 650 supporters</span>
+          </div>
+          <div class="col col-lg-3">
+<img src="https://www.themealdb.com/images/meal-icon.png" alt="">
+          </div>
+          <hr>
+      </div>
+      </div>
+      <hr>
+      <form action=""><input type="search" id="query" name="q" placeholder="Search...">
+      <button>Search</button>
+      </form>
+      <span>🍜Total meals : 283 🍖Total ingredients : 574 🍕Images : 283</span>
+      
+      <hr>
+      <div id="latest-meals">
+        <h3>Latest Meals</h3>
+        <div class="row" id="mealss">
+
+        </div><hr>
+          
+      </div>
+      <div id="popular-ingredients">
+        <h3>Popular Ingredients</h3>
+<div class="row" id="pop-ing">
+
+</div>
+<hr>
+      </div>
+      <div id="random-meals">
+        <h3>Random Meals</h3>
+        <div class="row" id="rand-meal">
+         
+        </div>
+        <hr>
+      </div>
+      <div id="random-ingredients">
+        <h3>Random Ingredients</h3>
+        <div class="row" id="rand-ing">
+          
+          </div>
+          <hr>
+      </div>
+      <div id="browse-country">
+        <h3>Browse Country</h3>
+        <div class="row" id="browse-countrys">
+          
+        </div>
+
+        <h3>Browse by Name</h3>
+        <a href=""><p>A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S/T/U/V/W/X/Y/Z</p></a>
+        
+      </div>
+      </div>
+      <div id="footer">
+        <div class="row">
+          <div class="col col-lg-3">
+           <span> © 2022 TheMealDB<br>
+Proudly built in the UK</span> 
+          </div>
+          <div class="col col-lg-6">
+<img class="footer-img" src="f1.png" alt="">
+<img class="footer-img" src="f2.png" alt="">
+<img class="footer-img" src="f3.png" alt="">
+          </div>
+          <div class="col col-lg-3">
+            <a class="footer-link" href="">About</a>
+            <a class="footer-link" href="">Faq</a>
+            <a class="footer-link" href="">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src='index2.js'></script>
+</body>
+</html>
